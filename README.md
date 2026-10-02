@@ -3,7 +3,7 @@
 Splits a PDF into several smaller PDFs, either at page numbers you name or in fixed-size chunks.
 AutoHotkey cannot manipulate PDFs, so the script writes out a small Python helper and calls it.
 
-Script: [`PDFSplitter.ahk`](PDFSplitter.ahk)
+Script: [`pdf-splitter.ahk`](pdf-splitter.ahk)
 
 ---
 
@@ -17,7 +17,7 @@ Script: [`PDFSplitter.ahk`](PDFSplitter.ahk)
 
 ## Getting started
 
-1. Run `PDFSplitter.ahk`.
+1. Run `pdf-splitter.ahk`.
 2. **Browse…** to a PDF. The output folder is filled in for you as `Split_<filename>` next to the
    source.
 3. Choose a **Split by** mode and fill in **Value**.
